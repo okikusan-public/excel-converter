@@ -1,0 +1,2 @@
+JPype1>=1.4.1
+aspose-cells-python>=23.12.0
