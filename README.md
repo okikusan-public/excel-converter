@@ -9,13 +9,13 @@ This script converts Excel files to PDF and creates new Excel files (with option
 
 ## Usage
 
-1.  **Build the Docker image:**
+1. **Build the Docker image:**
 
     ```bash
     docker-compose build
     ```
 
-2.  **Run the script:**
+2. **Run the script:**
 
     ```bash
     docker-compose run --service-ports excel-converter
@@ -31,16 +31,16 @@ This script converts Excel files to PDF and creates new Excel files (with option
       q: Quit
     ```
 
-    -   Enter `1` to convert Excel files in the `input/` folder to PDF. You will be prompted to select a file.
-    -   Enter `2` to create a new Excel file. You will be prompted to enter a filename (without the extension).
-    -   Enter `3` to create a new Excel file with a shape. You will be prompted to enter a filename, select a shape type (Rectangle, Oval, or Line), and specify the shape's row, column, height, and width.
-    -   Enter `q` to quit the script.
+    - Enter `1` to convert Excel files in the `input/` folder to PDF. You will be prompted to select a file.
+    - Enter `2` to create a new Excel file. You will be prompted to enter a filename (without the extension).
+    - Enter `3` to create a new Excel file with a shape. You will be prompted to enter a filename, select a shape type (Rectangle, Oval, or Line), and specify the shape's row, column, height, and width.
+    - Enter `q` to quit the script.
 
-3.  **Input and Output:**
+3. **Input and Output:**
 
-    -   Place Excel files to be converted in the `input/` folder.
-    -   Converted PDF files will be saved in the `output/` folder.
-    -   Newly created Excel files will be saved in the `input/` folder.
+    - Place Excel files to be converted in the `input/` folder.
+    - Converted PDF files will be saved in the `output/` folder.
+    - Newly created Excel files will be saved in the `input/` folder.
 
 ## Notes
 - The platform is `linux/amd64`

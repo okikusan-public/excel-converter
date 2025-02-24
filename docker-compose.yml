@@ -1,6 +1,7 @@
 version: '3'
 services:
   excel-converter:
+    platform: linux/amd64
     build: .
     volumes:
       - ./input:/app/input
