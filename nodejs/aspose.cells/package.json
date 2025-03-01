@@ -1,0 +1,42 @@
+{
+  "name": "aspose.cells",
+  "version": "25.1.0",
+  "description": "A powerful library for manipulating and converting Excel (XLS, XLSX, XLSB), ODS, CSV and HTML files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Excel",
+    "XLS",
+    "XLSX",
+    "XLSB",
+    "CSV",
+    "to",
+    "PDF",
+    "JPG",
+    "PNG",
+    "HTML",
+    "ODS",
+    "Numbers",
+    "XLSM",
+    "Spreadsheet",
+    "Markdown",
+    "XPS",
+    "DOCX",
+    "PPTX",
+    "MHTML",
+    "SVG",
+    "JSON",
+    "SQL",
+    "XML"
+  ],
+  "author": "Aspose",
+  "license": "End User License Agreement.html",
+  "dependencies": {
+    "java": ">=0.14.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

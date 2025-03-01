@@ -1,0 +1,16 @@
+services:
+  excel-converter-nodejs:
+    platform: linux/amd64
+    build: .
+    volumes:
+      # Share input and output directories with the host
+      - ./input:/app/input      # Excel files to convert
+      - ./output:/app/output    # Generated PDF files
+      - ./temp:/app/temp        # Temporary files
+      # Mount library directories
+      - ./aspose.cells:/app/aspose.cells
+    working_dir: /app
+    stdin_open: true  # Keep STDIN open
+    tty: true         # Allocate a pseudo-TTY
+    # Use run instead of up for interactive mode
+    command: npm start
